@@ -1,0 +1,10 @@
+SoC 설계 분류
+
+종합반도체 회사 (IDM: Integrated Device Manufacture)
+:삼성전자, 하이닉스
+
+주문형 반도체 (ASIC: Application Spectific Integrated Circui)
+주요산업: 인공위성, AXIS, 인공지능
+
+
+FPGA(Field "Programmable" Gate Array)

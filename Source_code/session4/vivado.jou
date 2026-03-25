@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Mar 25 14:05:27 2026
+# Process ID         : 2567881
+# Current directory  : /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4
+# Command line       : vivado
+# Log file           : /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/vivado.log
+# Journal file       : /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/vivado.jou
+# Running On         : ky-cds-semi
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.1 (Ootpa)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz
+# CPU Frequency      : 2800.021 MHz
+# CPU Physical cores : 40
+# CPU Logical cores  : 80
+# Host memory        : 540214 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 574573 MB
+# Available Virtual  : 378173 MB
+#-----------------------------------------------------------
+start_gui
+xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
+set_param board.repoPaths {/home_cds/std012/.Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store}
+xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo-z7-20:1.1]
+xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo-z7-10:1.1]
+xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo:1.0]
+create_project led_control /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control -part xc7z020clg400-1
+set_property board_part digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
+file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new
+close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v w ]
+add_files /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v
+update_compile_order -fileset sources_1
+synth_design -top led_control -part xc7z020clg400-1 -lint 
+synth_design -top led_control -part xc7z020clg400-1 -lint 
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs synth_1 -jobs 40
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+reset_run synth_1
+set_property IOSTANDARD LVCMOS33 [get_ports [list {led[3]} {led[2]} {led[1]} {led[0]}]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
+place_ports {led[3]} T16
+place_ports {led[2]} W13
+place_ports {led[1]} P15
+place_ports {led[3]} D18
+place_ports {led[2]} G14
+set_property is_loc_fixed true [get_ports [list  {led[1]}]]
+place_ports {led[1]} M15
+place_ports {led[0]} M14
+place_ports {sw[3]} T16
+place_ports {sw[2]} W13
+place_ports {sw[1]} P15
+place_ports {sw[0]} G15
+file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new
+close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new/led_control.xdc w ]
+add_files -fileset constrs_1 /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new/led_control.xdc
+set_property target_constrs_file /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new/led_control.xdc [current_fileset -constrset]
+save_constraints -force
+launch_runs impl_1 -to_step write_bitstream -jobs 40
+wait_on_run impl_1
+open_run impl_1
