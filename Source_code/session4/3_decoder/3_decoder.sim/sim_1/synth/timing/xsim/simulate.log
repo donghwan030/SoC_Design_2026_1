@@ -1,0 +1,30 @@
+Time resolution is 1 ps
+Time=0 | BCD Input=0000 | Seven Segment Output=xxxxxxx
+Time=4000 | BCD Input=0000 | Seven Segment Output=x1x11xx
+Time=4000 | BCD Input=0000 | Seven Segment Output=1111110
+Time=10000 | BCD Input=0001 | Seven Segment Output=1111110
+Time=14000 | BCD Input=0001 | Seven Segment Output=1110010
+Time=14000 | BCD Input=0001 | Seven Segment Output=0110000
+Time=20000 | BCD Input=0010 | Seven Segment Output=0110000
+Time=24000 | BCD Input=0010 | Seven Segment Output=0111100
+Time=24000 | BCD Input=0010 | Seven Segment Output=1101101
+Time=30000 | BCD Input=0011 | Seven Segment Output=1101101
+Time=34000 | BCD Input=0011 | Seven Segment Output=1101001
+Time=34000 | BCD Input=0011 | Seven Segment Output=1111001
+Time=40000 | BCD Input=0100 | Seven Segment Output=1111001
+Time=44000 | BCD Input=0100 | Seven Segment Output=1110001
+Time=44000 | BCD Input=0100 | Seven Segment Output=0110011
+Time=50000 | BCD Input=0101 | Seven Segment Output=0110011
+Time=54000 | BCD Input=0101 | Seven Segment Output=0111011
+Time=54000 | BCD Input=0101 | Seven Segment Output=1011011
+Time=60000 | BCD Input=0110 | Seven Segment Output=1011011
+Time=64000 | BCD Input=0110 | Seven Segment Output=1011111
+Time=70000 | BCD Input=0111 | Seven Segment Output=1011111
+Time=74000 | BCD Input=0111 | Seven Segment Output=1010011
+Time=74000 | BCD Input=0111 | Seven Segment Output=1110000
+Time=80000 | BCD Input=1000 | Seven Segment Output=1110000
+Time=84000 | BCD Input=1000 | Seven Segment Output=1111100
+Time=84000 | BCD Input=1000 | Seven Segment Output=1111111
+Time=90000 | BCD Input=1001 | Seven Segment Output=1111111
+Time=94000 | BCD Input=1001 | Seven Segment Output=1111011
+$finish called at time : 100 ns : File "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v" Line 49

@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Wed Mar 25 14:05:27 2026
-# Process ID         : 2567881
+# Start of session at: Wed Apr  1 14:09:17 2026
+# Process ID         : 3936327
 # Current directory  : /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4
 # Command line       : vivado
 # Log file           : /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/vivado.log
@@ -13,13 +13,13 @@
 # Platform           : RedHatEnterprise
 # Operating System   : Red Hat Enterprise Linux release 8.1 (Ootpa)
 # Processor Detail   : Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz
-# CPU Frequency      : 2800.021 MHz
+# CPU Frequency      : 2800.000 MHz
 # CPU Physical cores : 40
 # CPU Logical cores  : 80
 # Host memory        : 540214 MB
 # Swap memory        : 34359 MB
 # Total Virtual      : 574573 MB
-# Available Virtual  : 378173 MB
+# Available Virtual  : 367714 MB
 #-----------------------------------------------------------
 start_gui
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
@@ -78,96 +78,44 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 av
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-xhub::refresh_catalog [xhub::get_xstores xilinx_board_store]
-xhub::refresh_catalog: Time (s): cpu = 00:00:06 ; elapsed = 00:01:21 . Memory (MB): peak = 7760.207 ; gain = 0.000 ; free physical = 309288 ; free virtual = 351585
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
-set_param board.repoPaths {/home_cds/std012/.Xilinx/Vivado/2024.2/xhub/board_store/xilinx_board_store}
-xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo-z7-20:1.1]
-INFO: [xhubtcl-76-32]  
-INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:zybo-z7-20:1.1 from remote host https://github.com/Xilinx/XilinxBoardStore.git
-INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:zybo-z7-20:1.1 has been installed successfully.
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
-INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo-z7-10:1.1]
-INFO: [xhubtcl-76-32]  
-INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:zybo-z7-10:1.1 from remote host https://github.com/Xilinx/XilinxBoardStore.git
-INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:zybo-z7-10:1.1 has been installed successfully.
-xhub::install [xhub::get_xitems digilentinc.com:xilinx_board_store:zybo:1.0]
-INFO: [xhubtcl-76-32]  
-INFO: [Common 17-1570] Installing object digilentinc.com:xilinx_board_store:zybo:1.0 from remote host https://github.com/Xilinx/XilinxBoardStore.git
-INFO: [Common 17-1573] Object digilentinc.com:xilinx_board_store:zybo:1.0 has been installed successfully.
-create_project led_control /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control -part xc7z020clg400-1
+create_project 1_MUX /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX -part xc7z020clg400-1
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
 set_property board_part digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
-file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new
-close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v w ]
-add_files /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v
+file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new
+close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v w ]
+add_files /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v
 update_compile_order -fileset sources_1
-synth_design -top led_control -part xc7z020clg400-1 -lint 
-Command: synth_design -top led_control -part xc7z020clg400-1 -lint
+file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v w ]
+add_files -fileset sim_1 /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+synth_design -top gpio_mux -part xc7z020clg400-1 -lint 
+Command: synth_design -top gpio_mux -part xc7z020clg400-1 -lint
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 2632335
+INFO: [Synth 8-7075] Helper process launched with PID 3966526
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 8429.078 ; gain = 397.152 ; free physical = 301996 ; free virtual = 345627
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 8574.008 ; gain = 407.246 ; free physical = 296396 ; free virtual = 345621
 ---------------------------------------------------------------------------------
 Clean up Linter database...
-INFO: [Synth 8-6157] synthesizing module 'led_control' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'led_control' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'gpio_mux' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+INFO: [Synth 8-226] default block is never used [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_mux' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8509.055 ; gain = 477.129 ; free physical = 302492 ; free virtual = 346127
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 8641.977 ; gain = 475.215 ; free physical = 296106 ; free virtual = 345333
 ---------------------------------------------------------------------------------
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date         : Wed Mar 25 15:11:06 2026
+| Date         : Wed Apr  1 14:34:58 2026
 | Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -187,32 +135,33 @@ Table of Contents
 
 INFO: [Synth 37-85] Total of 0 linter message(s) generated.
 INFO: [Synth 37-45] Linter Run Finished!
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8520.930 ; gain = 489.004 ; free physical = 302470 ; free virtual = 346105
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 8659.789 ; gain = 493.027 ; free physical = 296082 ; free virtual = 345308
 INFO: [Common 17-83] Releasing license: Synthesis
-9 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8520.938 ; gain = 489.012 ; free physical = 302464 ; free virtual = 346099
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1677.103; main = 1478.243; forked = 198.859
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9456.410; main = 8520.934; forked = 935.477
-synth_design -top led_control -part xc7z020clg400-1 -lint 
-Command: synth_design -top led_control -part xc7z020clg400-1 -lint
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 8659.797 ; gain = 493.035 ; free physical = 296060 ; free virtual = 345286
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1623.722; main = 1429.802; forked = 193.920
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9595.270; main = 8659.793; forked = 935.477
+synth_design -top gpio_mux -part xc7z020clg400-1 -lint 
+Command: synth_design -top gpio_mux -part xc7z020clg400-1 -lint
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 8520.938 ; gain = 0.000 ; free physical = 302580 ; free virtual = 346216
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 8682.797 ; gain = 0.000 ; free physical = 294960 ; free virtual = 344189
 ---------------------------------------------------------------------------------
 Clean up Linter database...
-INFO: [Synth 8-6157] synthesizing module 'led_control' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'led_control' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'gpio_mux' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+INFO: [Synth 8-226] default block is never used [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_mux' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8520.938 ; gain = 0.000 ; free physical = 302574 ; free virtual = 346209
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8682.797 ; gain = 0.000 ; free physical = 294960 ; free virtual = 344189
 ---------------------------------------------------------------------------------
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
-| Date         : Wed Mar 25 15:11:20 2026
+| Date         : Wed Apr  1 14:44:10 2026
 | Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -232,119 +181,570 @@ Table of Contents
 
 INFO: [Synth 37-85] Total of 0 linter message(s) generated.
 INFO: [Synth 37-45] Linter Run Finished!
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8532.805 ; gain = 11.867 ; free physical = 302566 ; free virtual = 346201
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8683.699 ; gain = 0.902 ; free physical = 294952 ; free virtual = 344182
 INFO: [Common 17-83] Releasing license: Synthesis
-7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8532.812 ; gain = 11.875 ; free physical = 302564 ; free virtual = 346200
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1495.423; main = 1494.547; forked = 0.876
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 8558.082; main = 8532.809; forked = 25.273
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8683.707 ; gain = 0.910 ; free physical = 294951 ; free virtual = 344180
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1639.690; main = 1442.202; forked = 197.488
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9622.012; main = 8683.703; forked = 938.309
+synth_design -top gpio_mux -part xc7z020clg400-1 -lint 
+Command: synth_design -top gpio_mux -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 8724.125 ; gain = 7.387 ; free physical = 294496 ; free virtual = 343816
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'gpio_mux' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+INFO: [Synth 8-226] default block is never used [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_mux' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8724.125 ; gain = 7.387 ; free physical = 294457 ; free virtual = 343777
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Wed Apr  1 15:11:21 2026
+| Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+----------+--------------+----------+
+| Rule ID | Severity | # Violations | # Waived |
++---------+----------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8724.125 ; gain = 7.387 ; free physical = 294453 ; free virtual = 343773
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8724.133 ; gain = 7.395 ; free physical = 294453 ; free virtual = 343773
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1653.179; main = 1455.718; forked = 197.461
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9662.438; main = 8724.129; forked = 938.309
+synth_design -top gpio_mux -part xc7z020clg400-1 -lint 
+Command: synth_design -top gpio_mux -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 8724.133 ; gain = 0.000 ; free physical = 292602 ; free virtual = 341924
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'gpio_mux' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+INFO: [Synth 8-226] default block is never used [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_mux' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8724.133 ; gain = 0.000 ; free physical = 292510 ; free virtual = 341832
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Wed Apr  1 15:21:43 2026
+| Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+----------+--------------+----------+
+| Rule ID | Severity | # Violations | # Waived |
++---------+----------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8724.133 ; gain = 0.000 ; free physical = 292502 ; free virtual = 341823
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8724.133 ; gain = 0.000 ; free physical = 292502 ; free virtual = 341824
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1644.447; main = 1452.292; forked = 192.155
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9662.438; main = 8724.129; forked = 938.309
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
 synth_design -rtl -rtl_skip_mlo -name rtl_1
 Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
 Starting synth_design
 Using part: xc7z020clg400-1
-Top: led_control
+Top: gpio_mux
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 8625.086 ; gain = 68.812 ; free physical = 299770 ; free virtual = 343422
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 8847.297 ; gain = 62.844 ; free physical = 291244 ; free virtual = 340569
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'led_control' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'led_control' (0#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/sources_1/new/led_control.v:23]
+INFO: [Synth 8-6157] synthesizing module 'gpio_mux' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
+INFO: [Synth 8-226] default block is never used [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'gpio_mux' (0#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:22]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8702.055 ; gain = 145.781 ; free physical = 299435 ; free virtual = 343077
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 8924.297 ; gain = 139.844 ; free physical = 291169 ; free virtual = 340493
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8702.055 ; gain = 145.781 ; free physical = 299412 ; free virtual = 343059
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8939.141 ; gain = 154.688 ; free physical = 291158 ; free virtual = 340482
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8702.055 ; gain = 145.781 ; free physical = 299412 ; free virtual = 343059
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 8939.141 ; gain = 154.688 ; free physical = 291158 ; free virtual = 340482
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8702.062 ; gain = 0.000 ; free physical = 299410 ; free virtual = 343057
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8939.148 ; gain = 0.000 ; free physical = 291158 ; free virtual = 340482
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8757.711 ; gain = 0.000 ; free physical = 298765 ; free virtual = 342412
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8993.102 ; gain = 0.000 ; free physical = 291343 ; free virtual = 340667
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 8984.992 ; gain = 428.719 ; free physical = 298152 ; free virtual = 341788
-6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 9229.070 ; gain = 444.617 ; free physical = 291103 ; free virtual = 340427
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:14 . Memory (MB): peak = 8984.992 ; gain = 452.180 ; free physical = 298152 ; free virtual = 341788
-INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1870.056; main = 1870.056; forked = 0.000
-INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 8973.984; main = 8973.984; forked = 0.000
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 9229.070 ; gain = 465.875 ; free physical = 291103 ; free virtual = 340427
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1859.491; main = 1859.491; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9229.074; main = 9229.074; forked = 0.000
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:]
 launch_runs synth_1 -jobs 40
 WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-[Wed Mar 25 15:12:35 2026] Launched synth_1...
-Run output will be captured here: /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.runs/synth_1/runme.log
+[Wed Apr  1 15:23:00 2026] Launched synth_1...
+Run output will be captured here: /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.runs/synth_1/runme.log
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gpio_mux_io'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gpio_mux_io' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj gpio_mux_io_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_mux_io
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gpio_mux_io_behav xil_defaultlib.gpio_mux_io xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gpio_mux_io_behav xil_defaultlib.gpio_mux_io xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:32]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <gpio_mux_dut> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sources_1/new/peri_mux_io.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'gpio_mux_io'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'gpio_mux_io' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj gpio_mux_io_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpio_mux_io
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gpio_mux_io_behav xil_defaultlib.gpio_mux_io xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot gpio_mux_io_behav xil_defaultlib.gpio_mux_io xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2538] module instantiation should have an instance name [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.srcs/sim_1/new/tb_peri_mux_io.v:32]
+ComMsgMgrException: > not found while processing module instance <%s>: Invalid c_string in format.
+
+ERROR: [VRFC 10-2063] Module <gpio_mux_dut> not found while processing module instance <'Undefined'>
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/1_MUX/1_MUX.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
 open_run synth_1 -name synth_1
 Design is defaulting to impl run constrset: constrs_1
 Design is defaulting to synth run part: xc7z020clg400-1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8994.387 ; gain = 0.000 ; free physical = 295878 ; free virtual = 339675
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9247.816 ; gain = 0.000 ; free physical = 288026 ; free virtual = 337352
 INFO: [Project 1-479] Netlist was created with Vivado 2024.2
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9021.324 ; gain = 0.000 ; free physical = 295631 ; free virtual = 339433
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9247.816 ; gain = 0.000 ; free physical = 288021 ; free virtual = 337347
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-reset_run synth_1
-INFO: [Project 1-1160] Copying file /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.runs/synth_1/led_control.dcp to /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/utils_1/imports/synth_1 and adding it to utils fileset
-set_property IOSTANDARD LVCMOS33 [get_ports [list {led[3]} {led[2]} {led[1]} {led[0]}]]
-set_property IOSTANDARD LVCMOS33 [get_ports [list {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
-place_ports {led[3]} T16
-place_ports {led[2]} W13
-place_ports {led[1]} P15
-place_ports {led[3]} D18
-place_ports {led[2]} G14
-set_property is_loc_fixed true [get_ports [list  {led[1]}]]
-place_ports {led[1]} M15
-place_ports {led[0]} M14
-place_ports {sw[3]} T16
-place_ports {sw[2]} W13
-place_ports {sw[1]} P15
-place_ports {sw[0]} G15
-file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new
-close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new/led_control.xdc w ]
-add_files -fileset constrs_1 /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new/led_control.xdc
-set_property target_constrs_file /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.srcs/constrs_1/new/led_control.xdc [current_fileset -constrset]
-save_constraints -force
-launch_runs impl_1 -to_step write_bitstream -jobs 40
-WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
-[Wed Mar 25 15:49:13 2026] Launched synth_1...
-Run output will be captured here: /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.runs/synth_1/runme.log
-[Wed Mar 25 15:49:13 2026] Launched impl_1...
-Run output will be captured here: /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/led_control/led_control.runs/impl_1/runme.log
-open_run impl_1
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9543.438 ; gain = 0.000 ; free physical = 292045 ; free virtual = 335896
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+close_project
+create_project 3_decoder /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder -part xc7z020clg400-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+set_property board_part digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
+file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new
+close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v w ]
+add_files /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v
+update_compile_order -fileset sources_1
+file mkdir /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v w ]
+add_files -fileset sim_1 /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v
+update_compile_order -fileset sim_1
+synth_design -top bcdtoseg -part xc7z020clg400-1 -lint 
+Command: synth_design -top bcdtoseg -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287663 ; free virtual = 337857
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'bcdtoseg' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcdtoseg' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287659 ; free virtual = 337854
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Wed Apr  1 15:55:51 2026
+| Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+----------+--------------+----------+
+| Rule ID | Severity | # Violations | # Waived |
++---------+----------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287656 ; free virtual = 337851
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287651 ; free virtual = 337846
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2588.508; main = 2392.449; forked = 196.059
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 10520.414; main = 9582.105; forked = 938.309
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bcdtoseg'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bcdtoseg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj bcdtoseg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_to_7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bcd_to_7seg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bcdtoseg_behav xil_defaultlib.bcdtoseg xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot bcdtoseg_behav xil_defaultlib.bcdtoseg xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.bcdtoseg in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287695 ; free virtual = 337892
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+launch_runs synth_1 -jobs 40
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Wed Apr  1 15:56:39 2026] Launched synth_1...
+Run output will be captured here: /home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.runs/synth_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+synth_design -top bcd_to_7seg -part xc7z020clg400-1 -lint 
+Command: synth_design -top bcd_to_7seg -part xc7z020clg400-1 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 286248 ; free virtual = 336449
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7seg' [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7seg' (1#1) [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 286351 ; free virtual = 336552
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Wed Apr  1 15:57:07 2026
+| Host         : ky-cds-semi running 64-bit Red Hat Enterprise Linux release 8.1 (Ootpa)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++---------+----------+--------------+----------+
+| Rule ID | Severity | # Violations | # Waived |
++---------+----------+--------------+----------+
+
+
+INFO: [Synth 37-85] Total of 0 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 286352 ; free virtual = 336553
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 286350 ; free virtual = 336551
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 3836.113; main = 2389.625; forked = 1446.488
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 12540.211; main = 9620.133; forked = 2920.078
+launch_simulation -mode post-synthesis -type timing
+Command: launch_simulation  -mode post-synthesis -type timing
+INFO: [Vivado 12-12493] Simulation top is 'tb_bcd_to_7seg'
+INFO: [Vivado 12-5682] Launching post-synthesis timing simulation in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287780 ; free virtual = 337976
 INFO: [Project 1-479] Netlist was created with Vivado 2024.2
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9589.039 ; gain = 0.000 ; free physical = 292000 ; free virtual = 335851
-INFO: [Timing 38-478] Restoring timing data from binary archive.
-INFO: [Timing 38-479] Binary timing data restore complete.
-INFO: [Project 1-856] Restoring constraints from binary archive.
-INFO: [Project 1-853] Binary constraint restore complete.
-INFO: [Designutils 20-5722] Start Reading Physical Databases.
-Reading placement.
-Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291932 ; free virtual = 335783
-Reading placer database...
-Read Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
-Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
-Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
-Reading routing.
-Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
-Read Physdb Files: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
-Restored from archive | CPU: 0.020000 secs | Memory: 0.018463 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9659.938 ; gain = 0.000 ; free physical = 291931 ; free virtual = 335782
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sources_1/new/bcdtoseg.v:]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9731.207 ; gain = 0.000 ; free physical = 287773 ; free virtual = 337970
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [SIM-utils-24] Writing simulation netlist file for design 'synth_1'...
+INFO: [SIM-utils-25] write_verilog -mode timesim -nolib -sdf_anno true -force -file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim/tb_bcd_to_7seg_time_synth.v"
+INFO: [SIM-utils-27] Writing SDF file...
+INFO: [SIM-utils-28] write_sdf -mode timesim -process_corner slow -force -file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim/tb_bcd_to_7seg_time_synth.sdf"
+INFO: [SIM-utils-36] Netlist generated:/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim/tb_bcd_to_7seg_time_synth.v
+INFO: [SIM-utils-37] SDF generated:/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim/tb_bcd_to_7seg_time_synth.sdf
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_bcd_to_7seg' in fileset 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim'
+xvlog --incr --relax -prj tb_bcd_to_7seg_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim/tb_bcd_to_7seg_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcd_to_7seg
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_bcd_to_7seg
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim'
+xelab --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_bcd_to_7seg_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_bcd_to_7seg xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_bcd_to_7seg_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_bcd_to_7seg xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_bcd_to_7seg_time_synth.sdf", for root module "tb_bcd_to_7seg/uut".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_bcd_to_7seg_time_synth.sdf", for root module "tb_bcd_to_7seg/uut".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.bcd_to_7seg
+Compiling module xil_defaultlib.tb_bcd_to_7seg
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_bcd_to_7seg_time_synth
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.sim/sim_1/synth/timing/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_bcd_to_7seg_time_synth -key {Post-Synthesis:sim_1:Timing:tb_bcd_to_7seg} -tclbatch {tb_bcd_to_7seg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb_bcd_to_7seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Time=0 | BCD Input=0000 | Seven Segment Output=xxxxxxx
+Time=4000 | BCD Input=0000 | Seven Segment Output=x1x11xx
+Time=4000 | BCD Input=0000 | Seven Segment Output=1111110
+Time=10000 | BCD Input=0001 | Seven Segment Output=1111110
+Time=14000 | BCD Input=0001 | Seven Segment Output=1110010
+Time=14000 | BCD Input=0001 | Seven Segment Output=0110000
+Time=20000 | BCD Input=0010 | Seven Segment Output=0110000
+Time=24000 | BCD Input=0010 | Seven Segment Output=0111100
+Time=24000 | BCD Input=0010 | Seven Segment Output=1101101
+Time=30000 | BCD Input=0011 | Seven Segment Output=1101101
+Time=34000 | BCD Input=0011 | Seven Segment Output=1101001
+Time=34000 | BCD Input=0011 | Seven Segment Output=1111001
+Time=40000 | BCD Input=0100 | Seven Segment Output=1111001
+Time=44000 | BCD Input=0100 | Seven Segment Output=1110001
+Time=44000 | BCD Input=0100 | Seven Segment Output=0110011
+Time=50000 | BCD Input=0101 | Seven Segment Output=0110011
+Time=54000 | BCD Input=0101 | Seven Segment Output=0111011
+Time=54000 | BCD Input=0101 | Seven Segment Output=1011011
+Time=60000 | BCD Input=0110 | Seven Segment Output=1011011
+Time=64000 | BCD Input=0110 | Seven Segment Output=1011111
+Time=70000 | BCD Input=0111 | Seven Segment Output=1011111
+Time=74000 | BCD Input=0111 | Seven Segment Output=1010011
+Time=74000 | BCD Input=0111 | Seven Segment Output=1110000
+Time=80000 | BCD Input=1000 | Seven Segment Output=1110000
+Time=84000 | BCD Input=1000 | Seven Segment Output=1111100
+Time=84000 | BCD Input=1000 | Seven Segment Output=1111111
+Time=90000 | BCD Input=1001 | Seven Segment Output=1111111
+Time=94000 | BCD Input=1001 | Seven Segment Output=1111011
+$finish called at time : 100 ns : File "/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v" Line 49
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_bcd_to_7seg_time_synth' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 9757.527 ; gain = 26.320 ; free physical = 287732 ; free virtual = 337931
+add_bp {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} 49
+remove_bps -file {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} -line 49
+add_bp {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} 47
+add_bp {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} 38
+add_bp {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} 35
+remove_bps -file {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} -line 38
+remove_bps -file {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} -line 35
+remove_bps -file {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} -line 47
+add_bp {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} 38
+remove_bps -file {/home_cds/std012/SoC_Design_2026_1/SoC_Design_2026_1/Source_code/session4/3_decoder/3_decoder.srcs/sim_1/new/tb_bcdtoseg.v} -line 38
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr  1 16:05:56 2026...
