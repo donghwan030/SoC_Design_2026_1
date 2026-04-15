@@ -1,0 +1,1 @@
+"tb_gpio_mux" -debug "wave" -s "tb_gpio_mux" 
