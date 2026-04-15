@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session4/2_encoder/interrupt_controller.v" into library work
+INFO: [VRFC 10-311] analyzing module interrupt_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session4/2_encoder/tb_interrupt_controller.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_interrupt_controller

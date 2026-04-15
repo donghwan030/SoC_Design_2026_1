@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Apr  8 15:54:28 2026
+# Process ID         : 1258973
+# Current directory  : /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/1_comparator
+# Command line       : vivado
+# Log file           : /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/1_comparator/vivado.log
+# Journal file       : /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/1_comparator/vivado.jou
+# Running On         : ky-cds-semi
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.1 (Ootpa)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz
+# CPU Frequency      : 2800.000 MHz
+# CPU Physical cores : 40
+# CPU Logical cores  : 80
+# Host memory        : 540214 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 574573 MB
+# Available Virtual  : 371952 MB
+#-----------------------------------------------------------
+start_gui
+xterm: Xt error: Can't open display: 
+xterm: DISPLAY is not set
+ERROR: [Common 17-1374] Display test failed. Please check DISPLAY environment variable and X server permissions for remote display.
+ambiguous command name "c": calc_config_time can_resolve_reference case catch cd chan change_qor_suggestion_property check_integrity check_ip_cache check_syntax check_timing clock close close_design close_hw close_msg_db close_project combine_hw_platforms compile_c compile_simlib concat config_compile_simlib config_design_analysis config_flows config_implementation config_inter_slr_muxing config_ip_cache config_linter config_run config_simmodel config_timing_analysis config_timing_corners config_timing_pessimism connect_debug_cores connect_debug_port connect_net continue convert_ips convert_ngc copy_constraints copy_ip copy_run coroutine create_cell create_clock create_cluster_configuration create_dashboard create_dashboard_gadget create_dataflow_design create_debug_core create_debug_port create_drc_check create_drc_ruledeck create_drc_violation create_fileset create_generated_clock create_gui_custom_command create_gui_custom_command_arg create_interface create_ip create_ip_run create_macro create_msg_db create_net create_new_qor_suggestion create_noc_connection create_noc_interface create_partition_def create_pblock create_pin create_port create_port_on_reconfigurable_module create_power_rail create_pr_configuration create_project create_property create_qor_check create_qor_ruledeck create_reconfig_module create_report_config create_report_th create_rqs_runs create_run create_single_pass_run create_slack_histogram create_sysgen create_testbench create_waiver create_xps current_board current_board_part current_dashboard current_design current_fileset current_instance current_pr_configuration current_project current_run current_vivado_preferences customize_kernel
