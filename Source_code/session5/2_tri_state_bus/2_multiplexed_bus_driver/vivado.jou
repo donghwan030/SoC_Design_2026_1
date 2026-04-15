@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Apr 15 15:10:14 2026
+# Process ID         : 2554833
+# Current directory  : /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver
+# Command line       : vivado
+# Log file           : /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/vivado.log
+# Journal file       : /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/vivado.jou
+# Running On         : ky-cds-semi
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.1 (Ootpa)
+# Processor Detail   : Intel(R) Xeon(R) Silver 4316 CPU @ 2.30GHz
+# CPU Frequency      : 2810.606 MHz
+# CPU Physical cores : 40
+# CPU Logical cores  : 80
+# Host memory        : 540214 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 574573 MB
+# Available Virtual  : 369652 MB
+#-----------------------------------------------------------
+start_gui
+create_project tri_state_multiplexed_bus_driver /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver -part xc7z020clg400-1
+set_property board_part digilentinc.com:zybo-z7-20:part0:1.1 [current_project]
+file mkdir /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver/tri_state_multiplexed_bus_driver.srcs/sources_1/new
+close [ open /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver/tri_state_multiplexed_bus_driver.srcs/sources_1/new/multiplexed_bus_driver.v w ]
+add_files /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver/tri_state_multiplexed_bus_driver.srcs/sources_1/new/multiplexed_bus_driver.v
+update_compile_order -fileset sources_1
+file mkdir /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver/tri_state_multiplexed_bus_driver.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver/tri_state_multiplexed_bus_driver.srcs/sim_1/new/tb_multiplexed_bus_driver.v w ]
+add_files -fileset sim_1 /home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session5/2_tri_state_bus/2_multiplexed_bus_driver/tri_state_multiplexed_bus_driver/tri_state_multiplexed_bus_driver.srcs/sim_1/new/tb_multiplexed_bus_driver.v
+update_compile_order -fileset sim_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 40
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
