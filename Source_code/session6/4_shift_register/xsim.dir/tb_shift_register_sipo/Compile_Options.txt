@@ -1,0 +1,1 @@
+"tb_shift_register_sipo" -debug "wave" -s "tb_shift_register_sipo" 
