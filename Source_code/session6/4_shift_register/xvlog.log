@@ -1,4 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session6/4_shift_register/shift_register_sipo.v" into library work
-INFO: [VRFC 10-311] analyzing module shift_register_sipo
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home_cds/std012/SoC_design_2026_1/SoC_Design_2026_1/Source_code/session6/4_shift_register/tb_shift_register.sipo.v" into library work
-INFO: [VRFC 10-311] analyzing module tb_shift_register_sipo
